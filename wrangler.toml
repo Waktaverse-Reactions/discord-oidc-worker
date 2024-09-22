@@ -3,14 +3,14 @@ main = "src/workers.ts"
 compatibility_date = "2023-08-01"
 
 kv_namespaces = [
-  { binding = "KV", id = "0b9abda82acf461c8d4ecda656217e20", preview_id = "b43c22430b5240dea89cd6cc350d3946" }
+  { binding = "KV", id = "e06fb77901fa438eb1f4ea9294841446", preview_id = "e06fb77901fa438eb1f4ea9294841446" }
 ]
 
 [triggers]
 crons = ["0 */1 * * *"]
 
 [vars]
-DISCORD_CLIENT_ID="YOUR_CLIENT_ID"
-REDIRECT_URL="https://YOURNAME.cloudflareaccess.com/cdn-cgi/access/callback"
-SERVERS_ROLE_CLAIMS=["YOUR_SERVER_ID"]
+DISCORD_CLIENT_ID="1263101020330786916"
+REDIRECT_URL="https://wakreactions.cloudflareaccess.com/cdn-cgi/access/callback"
+SERVERS_ROLE_CLAIMS=["1080297562357125173"]
 CACHE_ROLES=true
